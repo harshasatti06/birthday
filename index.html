@@ -1,0 +1,797 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    >
+
+    <title>Happy Birthday, Chelli 🤎</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     PIN SCREEN
+===================================================== -->
+
+<section id="lockScreen" class="lock-screen">
+
+    <div class="background-heart heart-one">♡</div>
+    <div class="background-heart heart-two">♡</div>
+    <div class="background-heart heart-three">♡</div>
+
+    <div class="lock-content">
+
+        <div class="lock-symbol">♡</div>
+
+        <p class="overline">
+            A LITTLE SURPRISE
+        </p>
+
+        <h1>
+            This page is<br>
+            <em>only for you.</em>
+        </h1>
+
+        <p class="lock-description">
+            There is something waiting for you inside.
+            <br>
+            But first... prove that it's really you. 🤎
+        </p>
+
+        <div class="pin-area">
+
+            <input
+                id="pinInput"
+                type="password"
+                maxlength="8"
+                inputmode="numeric"
+                placeholder="DDMMYYYY"
+                autocomplete="off"
+            >
+
+            <button id="unlockBtn">
+                Enter Birthday
+                <span>→</span>
+            </button>
+
+        </div>
+
+        <p class="pin-hint">
+            Hint : Your date of birth
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     MAIN WEBSITE
+===================================================== -->
+
+<main id="birthdayPage" class="hidden">
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero-section">
+
+    <div class="hero-circle"></div>
+
+    <div class="hero-content">
+
+        <p class="hero-small">
+            18 • 10 • 2005
+        </p>
+
+        <h1>
+            Happy
+            <span>Birthday</span>
+        </h1>
+
+        <div class="hero-line"></div>
+
+        <p class="hero-subtitle">
+            To my non-blooded sister,
+            <br>
+            who became family anyway.
+        </p>
+
+        <div class="hero-heart">
+            ♡
+        </div>
+
+    </div>
+
+    <div class="hero-scroll">
+        <span>SCROLL TO BEGIN</span>
+        <div>↓</div>
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     INTRO
+===================================================== -->
+
+<section class="intro-section">
+
+    <div class="section-number">
+        01
+    </div>
+
+    <div class="intro-content">
+
+        <p class="section-label">
+            BEFORE WE BEGIN
+        </p>
+
+        <h2>
+            Some people are
+            <em>chosen.</em>
+        </h2>
+
+        <p class="intro-text">
+            Not everyone who becomes family shares your blood.
+            Sometimes life introduces you to someone unexpectedly...
+            And they become a part of your life that you never want to lose.
+        </p>
+
+        <div class="intro-signature">
+            And that's you.
+            <span>♡</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CANDLES
+===================================================== -->
+
+<section class="candle-section">
+
+    <div class="section-number">
+        02
+    </div>
+
+    <p class="section-label">
+        MAKE A WISH
+    </p>
+
+    <h2>
+        Before you read my letter...
+    </h2>
+
+    <p class="section-description">
+        There is one little thing you have to do first.
+        <br>
+        Tap every candle and make a wish.
+    </p>
+
+
+    <div class="cake-scene">
+
+        <div class="candles">
+
+            <div class="candle-item">
+                <div class="flame"></div>
+                <div class="candle"></div>
+            </div>
+
+            <div class="candle-item">
+                <div class="flame"></div>
+                <div class="candle"></div>
+            </div>
+
+            <div class="candle-item">
+                <div class="flame"></div>
+                <div class="candle"></div>
+            </div>
+
+            <div class="candle-item">
+                <div class="flame"></div>
+                <div class="candle"></div>
+            </div>
+
+            <div class="candle-item">
+                <div class="flame"></div>
+                <div class="candle"></div>
+            </div>
+
+        </div>
+
+
+        <div class="cake">
+
+            <div class="cake-top">
+                <div class="cake-cream"></div>
+            </div>
+
+            <div class="cake-body">
+
+                <div class="cake-drip drip-one"></div>
+                <div class="cake-drip drip-two"></div>
+                <div class="cake-drip drip-three"></div>
+                <div class="cake-drip drip-four"></div>
+
+                <div class="cake-writing">
+                    WITH LOVE
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="cake-plate"></div>
+
+    </div>
+
+    <p id="candleMessage" class="candle-message">
+        Five little flames are waiting for you.
+    </p>
+
+</section>
+
+
+<!-- =====================================================
+     LETTER INTRO
+===================================================== -->
+
+<section id="letterIntro" class="letter-intro hidden">
+
+    <div class="letter-intro-content">
+
+        <div class="envelope-icon">
+            ✉
+        </div>
+
+        <p class="section-label">
+            SOMETHING I WANTED TO SAY
+        </p>
+
+        <h2>
+            I wrote you a letter.
+        </h2>
+
+        <p>
+            Some things are easier to write than to say.
+            <br>
+            So take your time. This one is for you.
+        </p>
+
+        <button id="openLetterBtn">
+            Open My Letter
+            <span>♡</span>
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     LETTER
+===================================================== -->
+
+<section id="letterSection" class="letter-section hidden">
+
+    <div class="section-number">
+        03
+    </div>
+
+    <div class="letter-paper">
+
+        <div class="letter-top">
+
+            <span>
+                FOR MY SISTER
+            </span>
+
+            <span>
+                18.10.2005
+            </span>
+
+        </div>
+
+
+        <div class="letter-content">
+
+            <p class="dear">
+                Dear Chelli,
+            </p>
+
+            <p>
+                Happy Birthday to someone who was never technically
+                my sister, but somehow became one of the most important
+                people in my life.
+            </p>
+
+            <p>
+                We may not share the same blood, the same childhood
+                or the same family name. But honestly, I don't think
+                that's what makes someone family.
+            </p>
+
+            <p>
+                I don't know what the future will look like.
+                We will grow older. Life will become busier.
+                We may have different paths, different responsibilities,
+                and different places to be. But I hope one thing
+                never changes...
+            </p>
+
+            <p class="highlight">
+                I hope we always remain the kind of people who can
+                find our way back to each other.
+            </p>
+
+            <p>
+                On your birthday, I don't just wish you a happy day.
+                I wish you a beautiful life. I wish you people who
+                genuinely appreciate your heart. I wish you success
+                in everything you work for. I wish you peace when
+                life feels difficult. And I wish you countless
+                reasons to smile.
+            </p>
+
+            <p>
+                Never forget how special you are. 
+            </p>
+
+            <p>
+                Thank you for being you. And thank you for
+                becoming my sister without ever needing the same blood.
+            </p>
+
+            <p class="final-letter">
+                Happy Birthday, Chelli 🤎
+            </p>
+
+            <p class="signature">
+                Always cheering for you,
+                <br>
+                Annaya
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     OUR BOND
+===================================================== -->
+
+<section class="bond-section">
+
+    <div class="section-number">
+        04
+    </div>
+
+    <div class="bond-heading">
+
+        <p class="section-label">
+            OUR BOND
+        </p>
+
+        <h2>
+            It's the little things I'll always remember.
+        </h2>
+
+        <p>
+            Not every memory needs a photograph.
+            Some memories simply stay in the heart.
+        </p>
+
+    </div>
+
+
+    <div class="bond-list">
+
+
+
+        <div class="bond-item">
+
+            <div class="bond-number">
+                01
+            </div>
+
+            <div>
+                <h3>
+                    Being There
+                </h3>
+
+                <p>
+                    Sometimes you don't need a big speech or perfect
+                    advice. Sometimes simply knowing that someone is
+                    there is enough. And I hope you always know that
+                    I'll be there.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="bond-item">
+
+            <div class="bond-number">
+                02
+            </div>
+
+            <div>
+                <h3>
+                    Becoming Family
+                </h3>
+
+                <p>
+                    We didn't start with the same blood.
+                    You simply became important to me.
+                    And honestly, I think that's something even
+                    more beautiful.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ADMIRE
+===================================================== -->
+
+<section class="admire-section">
+
+    <div class="section-number">
+        05
+    </div>
+
+    <p class="section-label">
+        JUST SO YOU KNOW
+    </p>
+
+    <h2>
+        Things I hope you never forget.
+    </h2>
+
+
+    <div class="admire-grid">
+
+        <div class="admire-card">
+
+            <span>♡</span>
+
+            <h3>
+                You are enough.
+            </h3>
+
+            <p>
+                You don't have to constantly prove your worth
+                to anyone.
+            </p>
+
+        </div>
+
+
+        <div class="admire-card">
+
+            <span>✦</span>
+
+            <h3>
+                Your dreams matter.
+            </h3>
+
+            <p>
+                Never make your dreams smaller just because
+                someone else doesn't understand them.
+            </p>
+
+        </div>
+
+
+        <div class="admire-card">
+
+            <span>♡</span>
+
+            <h3>
+                You deserve happiness.
+            </h3>
+
+            <p>
+                Choose the things and people that bring genuine
+                happiness into your life.
+            </p>
+
+        </div>
+
+
+        <div class="admire-card">
+
+            <span>✦</span>
+
+            <h3>
+                Keep being yourself.
+            </h3>
+
+            <p>
+                The world doesn't need another copy of someone else.
+                It needs you.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     WISHES
+===================================================== -->
+
+<section class="wishes-section">
+
+    <div class="section-number">
+        06
+    </div>
+
+    <p class="section-label">
+        FOR YOUR NEW CHAPTER
+    </p>
+
+    <h2>
+        Five things I wish for you.
+    </h2>
+
+
+    <div class="wish-list">
+
+        <div class="wish">
+
+            <span>01</span>
+
+            <div>
+
+                <h3>
+                    Happiness
+                </h3>
+
+                <p>
+                    The kind that comes from within and doesn't
+                    depend on anyone else.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="wish">
+
+            <span>02</span>
+
+            <div>
+
+                <h3>
+                    Success
+                </h3>
+
+                <p>
+                    May every dream you quietly carry become
+                    something you can proudly call yours.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="wish">
+
+            <span>03</span>
+
+            <div>
+
+                <h3>
+                    Peace
+                </h3>
+
+                <p>
+                    May you always find calm even when life
+                    becomes a little chaotic.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="wish">
+
+            <span>04</span>
+
+            <div>
+
+                <h3>
+                    Love
+                </h3>
+
+                <p>
+                    May you always be surrounded by people who
+                    love and respect you genuinely.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="wish">
+
+            <span>05</span>
+
+            <div>
+
+                <h3>
+                    Courage
+                </h3>
+
+                <p>
+                    May you always have the courage to choose
+                    yourself and chase what makes you happy.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FUTURE
+===================================================== -->
+
+<section class="future-section">
+
+    <div class="future-inner">
+
+        <p class="section-label">
+            FOR THE FUTURE
+        </p>
+
+        <h2>
+            Wherever life takes us...
+        </h2>
+
+        <div class="future-line"></div>
+
+        <p class="future-text">
+
+            There will be new places.
+            <br>
+            New people.
+            <br>
+            New responsibilities.
+            <br>
+            New chapters.
+
+            <br><br>
+
+            We will both change.
+            We will grow.
+            We will become different versions
+            of ourselves.
+
+            <br><br>
+
+            But I hope there will always be a small part
+            of our lives that remains exactly the same.
+
+            <br><br>
+
+            The part where we can still talk, share our problems,
+            and simply be ourselves.
+
+        </p>
+
+        <div class="future-heart">
+            ♡
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FINAL
+===================================================== -->
+
+<section class="final-section">
+
+    <div class="final-content">
+
+        <p class="section-label">
+            AND FINALLY...
+        </p>
+
+        <h2>
+            Keep smiling.
+            <br>
+            Keep shining.
+        </h2>
+
+        <div class="final-divider">
+            ♡
+        </div>
+
+        <p>
+            No matter where life takes us,
+            <br>
+            you'll always have a special
+            <br>
+            place in my heart.
+        </p>
+
+        <h3>
+            Happy Birthday, Chelli 🤎
+        </h3>
+
+        <div class="final-date">
+            18 • 10 • 2005
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-heart">
+        ♡
+    </div>
+
+    <p>
+        Made with love.
+    </p>
+
+    <small>
+        For someone who became family.
+    </small>
+
+</footer>
+
+</main>
+
+
+<div id="confettiContainer"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
